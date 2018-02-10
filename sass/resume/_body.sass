@@ -1,0 +1,41 @@
+.resume__body
+  background-color: #fff
+  padding: 50px
+
+  &-heading
+    font-size: 30px
+    margin-top: 10px
+    margin-bottom: 60px
+
+  &-mini-image
+    width: 38px
+    margin-right: 10px
+    margin-top: 15px
+
+  &-item--bordered
+    border-left: 2px solid #f9f9f9
+    padding-left: 20px
+    padding-top: 5px
+    position: relative
+
+  &-item-icon
+    position: absolute
+    left: -10px
+    top: 34px
+
+  &-item:not(:last-of-type)
+    margin-bottom: 40px
+
+  &-item p:last-child
+    margin-bottom: 0
+
+  &-list
+    li
+      margin-bottom: 10px
+      &::before
+        content: '\2022'
+        vertical-align: middle
+        margin-right: 7px
+      &:last-child
+        margin-bottom: 0
+      

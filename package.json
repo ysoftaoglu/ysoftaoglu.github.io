@@ -1,0 +1,23 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "My personal website.",
+  "main": "gulpfile.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp-concat": "^2.6.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-uncss": "^1.0.6"
+  },
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Yasin Softaoğlu",
+  "license": "ISC"
+}
